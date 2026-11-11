@@ -108,6 +108,9 @@ New-ADOrganizationalUnit -Name "Departments" -Path "OU=ABC-Company,$domain"
 }
 ```
 
+![Network Topology](img/organizational-units.png)
+
+
 ## Challenge: Why Separate Users and Computers into Different OUs?
 
 Placing users and computers in separate OUs is a standard practice in real companies for several reasons:
