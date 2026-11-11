@@ -59,37 +59,14 @@ Open Command Prompt on each machine and ping the other.
 
 **From CLIENT01 to DC01:**
 
-```cmd
-C:\Users\client>ping 192.168.10.10
+![Network Topology](img/ping-client-to-admin.png)
 
-Pinging 192.168.10.10 with 32 bytes of data:
-Reply from 192.168.10.10: bytes=32 time<1ms TTL=128
-Reply from 192.168.10.10: bytes=32 time<1ms TTL=128
-Reply from 192.168.10.10: bytes=32 time<1ms TTL=128
-Reply from 192.168.10.10: bytes=32 time<1ms TTL=128
-
-Ping statistics for 192.168.10.10:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 0ms, Maximum = 1ms, Average = 0ms
-```
 
 **From DC01 to CLIENT01:**
 
-```cmd
-C:\Users\Administrator>ping 192.168.10.20
+![Network Topology](img/ping-admin-to-client.png)
 
-Pinging 192.168.10.20 with 32 bytes of data:
-Reply from 192.168.10.20: bytes=32 time<1ms TTL=128
-Reply from 192.168.10.20: bytes=32 time=1ms TTL=128
-Reply from 192.168.10.20: bytes=32 time=1ms TTL=128
-Reply from 192.168.10.20: bytes=32 time=1ms TTL=128
 
-Ping statistics for 192.168.10.20:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 0ms, Maximum = 1ms, Average = 0ms
-```
 
 ## Results
 
