@@ -51,7 +51,6 @@ More guides will be added here as I complete the next tasks: security groups and
 - Active Directory Users and Computers (ADUC)
 - OU design and AD structure planning
 - User account creation and lifecycle basics
-- PowerShell for AD (`New-ADOrganizationalUnit`, `New-ADUser`, `Get-ADUser`)
 - Troubleshooting OU placement mistakes
 
 ## Next
