@@ -15,10 +15,7 @@ This folder documents how I installed Active Directory Domain Services on **DC01
 
 | File | Description |
 |------|-------------|
-| [domain-controller-setup.md](domain-controller-setup.md) | Preparing DC01 as the domain controller |
-| [ad-ds-installation.md](ad-ds-installation.md) | Installing the AD DS and DNS Server roles |
-| [domain-creation.md](domain-creation.md) | Promoting DC01 and creating the `abc.local` domain |
-| [client-domain-join.md](client-domain-join.md) | Joining CLIENT01 to the domain |
+| [organizational-units.md](organizational-units.md) | Building the OU hierarchy under `ABC-Company`, and why users and computers go in separate OUs |
 
 ## What I Accomplished
 
@@ -35,4 +32,4 @@ This folder documents how I installed Active Directory Domain Services on **DC01
 
 ## Next
 
-Continue to [03-user-and-group-management](../03-user-and-group-management/) to build the OU structure and create user accounts.
+Continue to [03-user-management](../03-user-management/) to create user accounts.
