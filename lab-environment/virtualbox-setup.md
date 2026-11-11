@@ -6,7 +6,7 @@ Prepare the VirtualBox virtual network so the Domain Controller (**DC01**) and t
 
 ## Network Topology
 
-![Network Topology](network-topology.png)
+![Network Topology](img/network-topology.png)
 
 ## Virtual Machines
 
