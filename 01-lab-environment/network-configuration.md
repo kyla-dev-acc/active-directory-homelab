@@ -8,7 +8,7 @@ This follows [virtualbox-setup.md](virtualbox-setup.md), where the VirtualBox ad
 
 ## Network Topology
 
-![Network Topology](network-topology.png)
+![Network Topology](img/network-topology.png)
 
 ## IP Addressing Plan
 
