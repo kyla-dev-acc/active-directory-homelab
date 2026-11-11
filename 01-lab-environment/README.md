@@ -4,7 +4,7 @@ This folder documents how I built the virtual network for my Active Directory pr
 
 ## Network Topology
 
-![Network Topology](network-topology.png)
+![Network Topology](img/network-topology.png)
 
 ## Lab Summary
 
