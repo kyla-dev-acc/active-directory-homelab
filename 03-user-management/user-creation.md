@@ -87,11 +87,7 @@ Yes. Group Policy applies to a user based on the OU where the user object lives.
 
 **How to fix it:**
 1. In ADUC, right-click John Santos > **Move** and choose `OU=IT`, or drag and drop the account.
-2. Or use PowerShell:
-   ```powershell
-   Get-ADUser jsantos | Move-ADObject -TargetPath "OU=IT,OU=Departments,OU=ABC-Company,DC=abc,DC=local"
-   ```
-3. Run `gpupdate /force` on his computer, or have him log off and on again, so the correct policies apply.
+2. Run `gpupdate /force` on his computer, or have him log off and on again, so the correct policies apply.
 
 ## Key Takeaways
 
