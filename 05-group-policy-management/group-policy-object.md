@@ -131,6 +131,9 @@ Example legal notice (replace with your own wording):
 
 ---
 
+![Network Topology](img/group-policy.png)
+
+
 ## Applying and Verifying the Policies
 
 ### 1. Refresh policy on CLIENT01
